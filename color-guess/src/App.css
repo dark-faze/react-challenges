@@ -1,0 +1,25 @@
+.App{
+  display : flex;
+  flex-direction: column;
+  min-width: 100vh;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.colorbox{
+  height:200px;
+  width:300px;
+  margin-bottom: 20px;
+}
+.buttonDiv{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+.button{
+  background-color: aliceblue;
+  border-radius: 5px;
+  border-color: rgb(0, 0, 0);
+  font-size: smaller;
+  margin-bottom: 10px;
+}
